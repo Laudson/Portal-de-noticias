@@ -1,0 +1,164 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------Estrutura Página------------------------------------------------------------------*/
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:rgba(100,100,100,1.00);
+}
+
+/*---------------------------------------------------------------------Estrutura Menu-------------------------------------------------------------------*/
+
+.cabecalho {
+    height: 150px;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    background-color:rgba(239,239,239,1.00);
+}
+.apresentacao {
+    font-size: 15px;
+    font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    margin: 10px;
+    padding: 5px;
+    height: 20px;
+    width: auto;
+}
+.menu {
+    margin: 30px auto 0px auto;
+    padding: 10px;
+    height: 40px;
+    width: 80%;
+    /*border-width: 1px;
+    border-style: solid;*/
+    text-align:center;
+}
+
+/*---------------------------------------------------------------------Botões Menu-----------------------------------------------------------------------*/
+
+.bntMenu li{
+    display:inline;
+    margin:10px;
+    border-radius:20px;
+    padding:5px;
+    background-color:rgba(147,119,119,0.76);
+}
+
+.bntMenu li a{
+    text-decoration:none;
+    color:rgba(228,228,228,1.00);
+    font-size:16px;
+}
+
+.bntMenu li:hover{
+    background-color:rgba(255,255,255,1.00);
+}
+
+.bntMenu li a:hover{
+    color:rgba(0,0,0,1.00);
+}
+
+.bntPrecionado{
+    background-color: white;
+}
+
+/*----------------------------------------------------------------------Conteudo-------------------------------------------------------------------------*/
+h1{
+    font-size: 25px;
+    text-align: center;
+    font-family:sans-serif;
+}
+.conteudo{
+    border: solid 1px;
+    width:1100px;
+    height:500px;
+    margin: 0px auto 0px auto;
+    background-color:rgba(255,255,255,1.00);
+}
+
+.fildPrincipal{
+    width: 450px;
+    border-radius: 20px;
+    height: 350px;
+    margin: 0px 0px 0px 20px;
+}
+
+.fildInput{
+    width: 300px;
+    margin: 30px 0px 0px 50px;
+    border: none;
+}
+
+.fildInput input[type=text]{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: #000 2px 2px 1px;
+}
+
+.fildInput input[type=password]{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: #000 2px 2px 1px;
+}
+
+.princLegend{
+    font-size: 17px;
+    font-family:sans-serif;
+}
+
+.fildComplemento{
+    width: 450px;
+    height: 300px;
+    margin: -350px 0px 0px 600px;
+    border-radius: 20px;
+}
+
+.fildComplemento select{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    box-shadow: #000 2px 2px 1px;
+    padding-left: 10px;
+}
+
+.fildSelect{
+    width: 30px;
+    margin: 30px 0px 0px 120px;
+    border: none;
+}
+
+.fildRedefine{
+    width: 200px;
+    margin: 40px 0px 0px 120px;
+}
+
+.fildRedefineSim{
+    width: 30px;
+    margin: 0px 0px 0px 30px;
+    border: none;
+}
+
+.fildRedefineNao{
+    width: 30px;
+    margin: -50px 0px 0px 110px;
+    border: none;
+}
+
+.bnt{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+.cadastrar{
+    margin: 20px 0px 0px 600px;
+}
+
+.cancelar{
+    margin: -46px 0px 0px 885px;
+}

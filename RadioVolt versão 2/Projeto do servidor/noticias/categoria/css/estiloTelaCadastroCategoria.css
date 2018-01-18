@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------Estrutura Página------------------------------------------------------------------*/
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:rgba(100,100,100,1.00);
+}
+
+/*---------------------------------------------------------------------Estrutura Menu-------------------------------------------------------------------*/
+
+.cabecalho {
+    height: 150px;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    background-color:rgba(239,239,239,1.00);
+}
+.apresentacao {
+    font-size: 15px;
+    font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    margin: 10px;
+    padding: 5px;
+    height: 20px;
+    width: auto;
+}
+.menu {
+    margin: 30px auto 0px auto;
+    padding: 10px;
+    height: 40px;
+    width: 80%;
+    /*border-width: 1px;
+    border-style: solid;*/
+    text-align:center;
+}
+
+/*---------------------------------------------------------------------Botões Menu-----------------------------------------------------------------------*/
+
+.bntMenu li{
+    display:inline;
+    margin:10px;
+    border-radius:20px;
+    padding:5px;
+    background-color:rgba(147,119,119,0.76);
+}
+
+.bntMenu li a{
+    text-decoration:none;
+    color:rgba(228,228,228,1.00);
+    font-size:16px;
+}
+
+.bntMenu li:hover{
+    background-color:rgba(255,255,255,1.00);
+}
+
+.bntMenu li a:hover{
+    color:rgba(0,0,0,1.00);
+}
+
+.bntPrecionado{
+    background-color: white;
+}
+
+/*----------------------------------------------------------------------Conteudo-------------------------------------------------------------------------*/
+h1{
+    font-size: 25px;
+    text-align: center;
+    font-family:sans-serif;
+}
+.conteudo{
+    border: solid 1px;
+    width:1100px;
+    height:850px;
+    margin: 0px auto 0px auto;
+    background-color:rgba(255,255,255,1.00);
+}
+
+.conteudo fieldset{
+    margin: 100px auto 0px auto;
+    border-radius: 20px;
+    width: 300px;
+    height: 200px;
+}
+.conteudo legend{
+    font-size: 17px;
+    font-family:sans-serif;
+}
+
+.conteudo input[type=text]{
+    height: 30px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: #000 2px 2px 1px;
+    margin: 60px 0px 0px 60px;
+}
+
+.conteudo input[type=submit]{
+    width: 100px;
+    border-radius: 20px;
+}
+
+.conteudo fieldset input[type=submit]{
+    margin: 50px 0px 0px 30px;
+}
+
+.bntCancela{
+    margin: -52px 0px 0px 570px;
+}

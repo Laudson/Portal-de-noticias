@@ -1,0 +1,118 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.principal{
+    //padding: 0px 15px 0px 15px;
+    width: 278px;
+    height: 398px;
+    border:solid 1px;
+    border-color:#E0E0DD;
+    margin: auto;
+}
+
+/*--------------------------------------------------------------------------Menu--------------------------------------------------------------------------*/
+
+.cabecalho{
+    
+    //border-radius:5px 5px 0 0;
+    padding: 5px;
+    width: 268px;
+    height:20px;
+    background:#E0E0DD; 
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    position: fixed;
+    margin: 0px 0px 90px 0px;
+}
+
+.rodape{
+    //border-radius:5px 5px 0 0;
+    padding: 5px 5px 6px 5px;
+    width: 268px;
+    height:20px;
+    background:#E0E0DD; 
+    text-align: center;
+    font-size: 12px;
+    font-family: sans-serif;
+    margin: 0px 0px 0px 0px;
+    position: fixed;
+}
+
+.contemNoticia{
+    margin: 26px 0px 0px 0px;
+    height:340px;
+    width: 278px;
+    overflow-y:auto;
+}
+
+/*------------------------------------------------------------------------tabela-------------------------------------------------------------------------*/
+
+.tr{
+    border-bottom: solid 1px;
+    width: 253px;
+    height: 175px;
+    padding: 3px;
+    font-size: 12px;
+    font-family: sans-serif;
+}
+
+.tr:hover{
+    box-shadow: #000 2px 2px 1px;
+    background-color:rgba(239,239,239,1.00);
+}
+
+.tr .imagem{
+
+    width: 100px;
+    height: 120px; 
+    text-align: center;
+    padding: 1px;
+    float: left;
+    //border: solid 1px;
+}
+
+.tr .titulo{
+    width: 253px;
+    height: 40px; 
+    float: left;
+    margin: 5px 0px 0px 0px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    //border: solid 1px;
+}
+
+.tr .titulo h1,h2,h3,a,p{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.tr .noticia{
+    width: 147px;
+    height: 122px;
+    float: left;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    //border: solid 1px;
+}
+
+.tr .noticia a,p,h1,h2,h3{
+    text-decoration: none;
+    color: black;
+    text-overflow: ellipsis;
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    text-justify: auto;
+    font-family: sans-serif;
+}

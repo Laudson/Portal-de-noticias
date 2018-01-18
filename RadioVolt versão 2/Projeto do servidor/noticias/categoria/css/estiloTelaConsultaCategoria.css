@@ -1,0 +1,277 @@
+@charset "utf-8";
+
+/*---------------------------------------------------------------------Estrutura Página------------------------------------------------------------------*/
+
+body{
+    margin:0px;
+    padding:0px;
+    background-color:rgba(100,100,100,1.00);
+}
+
+/*---------------------------------------------------------------------Estrutura Menu-------------------------------------------------------------------*/
+
+.cabecalho {
+    height: 150px;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    background-color:rgba(239,239,239,1.00);
+}
+.apresentacao {
+    font-size: 15px;
+    font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+    margin: 10px;
+    padding: 5px;
+    height: 20px;
+    width: auto;
+}
+.menu {
+    margin: 30px auto 0px auto;
+    padding: 10px;
+    height: 40px;
+    width: 80%;
+    /*border-width: 1px;
+    border-style: solid;*/
+    text-align:center;
+}
+
+/*---------------------------------------------------------------------Botões Menu-----------------------------------------------------------------------*/
+
+.bntMenu li{
+    display:inline;
+    margin:10px;
+    border-radius:20px;
+    padding:5px;
+    background-color:rgba(147,119,119,0.76);
+}
+
+.bntMenu li a{
+    text-decoration:none;
+    color:rgba(228,228,228,1.00);
+    font-size:16px;
+}
+
+.bntMenu li:hover{
+    background-color:rgba(255,255,255,1.00);
+}
+
+.bntMenu li a:hover{
+    color:rgba(0,0,0,1.00);
+}
+
+.bntPrecionado{
+    background-color: white;
+}
+
+/*----------------------------------------------------------------------Conteudo-------------------------------------------------------------------------*/
+h1{
+    font-size: 25px;
+    text-align: center;
+    font-family:sans-serif;
+}
+.conteudo{
+    border: solid 1px;
+    width:1100px;
+    height:850px;
+    margin: 0px auto 0px auto;
+    background-color:rgba(255,255,255,1.00);
+}
+
+/*--------------------------------------------------------------------Conteudo/Filtro--------------------------------------------------------------------*/
+.divFiltroPesquisa{
+    width: 1065px;
+    height: 150px;
+    border: solid 1px;
+    margin: 20px auto 0px auto;
+}
+
+.divFiltroPesquisa h1{
+    font-size: 15px;
+    text-align:left;
+    font-family:sans-serif;
+    margin-left: 5px;
+}
+
+.divFiltroPesquisa select{
+   margin: 0px 0px 20px 5px;
+   border-radius: 10px;
+   padding: 3px;
+   box-shadow: #000 2px 2px 1px;
+}
+
+.divFiltroPesquisa input[type=text]{
+   margin: 5px;
+   border-radius: 10px;
+   padding: 3px;
+   box-shadow: #000 2px 2px 1px;
+   text-align: center;
+}
+
+.divFiltroPesquisa input[type=submit]{
+   border-radius: 10px;
+   padding: 3px;
+   width: 150px;
+}
+
+.divBntExcluir{
+    margin: -41px 0px 0px 270px;
+}
+
+.divFiltroPesquisa #consultar{
+   margin-left: 100px;
+}
+
+.infoFiltro{
+    width: 500px;
+    height: 50px;
+    /*border: solid 1px;*/
+    float: right;
+    margin-right: 5px;
+}
+
+.infoFiltro p{
+    color: red;
+}
+
+/*--------------------------------------------------------------------Conteudo/Registros-----------------------------------------------------------------*/
+
+.divTabela{
+    margin: 20px auto 0px auto;
+    border: solid 1px;
+    width: 600px;
+    padding: 5px;
+}
+
+.divTabela h1{
+    font-size: 15px;
+    text-align:left;
+    font-family:sans-serif;
+    margin-left: 5px;
+}
+
+.divTabela input[type=submit]{
+   border-radius: 10px;
+   padding: 3px;
+   width: 150px;
+}
+
+.divPriTr{
+    /*border: solid 1px;*/
+    width: 597px;
+    height: 85px;
+    text-align: center;
+    margin: 5px 0px 5px 0px
+}
+
+.divtr{
+    /*border: solid 1px;*/
+    width: 160px;
+    height: auto;
+    display:inline-block;
+    overflow:auto; 
+    margin-bottom: 10px;
+}
+
+.divtrInfo {
+    font-size: 25px;
+    color: red;
+    text-align: center;
+}
+
+.divPriTr:hover{
+    border: solid 1px;
+    box-shadow: #000 2px 2px 1px;
+    background-color:rgba(239,239,239,1.00);
+}
+
+.divtrOpr{
+    /*border: solid 1px;*/
+    width: 100px;
+    height: auto;
+    display:inline-block;
+    margin-top: 20px;
+}
+
+.divPriTitTr{
+    border: solid 1px;
+    width: 597px;;
+    height: 35px;
+    text-align: center;
+    background-color:rgba(239,239,239,1.00);
+}
+
+.divTitTr{
+    /*border: solid 1px;*/
+    width: 160px;
+    height: 30px;
+    display:inline-block;
+}
+
+.divTitTr a{
+    text-decoration: none;
+    color: black;
+}
+
+.divTitOpr{
+    /*border: solid 1px;*/
+    width: 100px;
+    height: 30px;
+    display:inline-block;
+}
+
+.chmNovaNoticia{
+    float: right;
+    margin: -35px 0px 0px 0px;
+}
+
+/*----------------------------------------------------------------------------Paginação------------------------------------------------------------------*/
+
+.divPriTf{
+    border: solid 1px;
+    width: 567px;
+    height: 32px;
+    background-color:rgba(239,239,239,1.00);
+    text-align: center;
+    padding: 15px;
+}
+
+.divtf{
+    width: 30px;
+    height: 20px;
+    border: solid 1px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+    margin: 0px 0px 0px 5px;
+}
+
+.divtf:hover{
+    box-shadow: #000 2px 2px 1px;
+    background-color: white;
+}
+
+.divtfo{
+    width: 60px;
+    height: 20px;
+    border: solid 1px;
+    display: inline-block;
+    text-align: center;
+    padding: 5px;
+}
+
+.divtfo:hover{
+    box-shadow: #000 2px 2px 1px;
+    background-color:rgba(147,119,119,0.76);
+}
+
+.Ant{
+    border-radius: 10px 0px 0px 10px;
+    margin: 0px 0px 0px 5px;
+}
+
+.Pro{
+    border-radius: 0px 10px 10px 0px;
+    margin: 0px 0px 0px 5px;
+}
+/*-------------------------------------------------------------------------Rodapé------------------------------------------------------------------------*/
+
